@@ -1,0 +1,49 @@
+body{
+    font-family: "Arial", cursive;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1, h2 {
+ font-family: "Bradley Hand ITC", cursive;
+}
+.firstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.secondSection{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.contentSecondSection {
+    flex: 1;
+    margin: 0 10px;
+    border-right: 2px solid black;
+    padding: 20px;
+}
+.thirdSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.refs{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
